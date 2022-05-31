@@ -80,6 +80,10 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#mix">Mix</a>
     </li>
+    <li class="toctree-l3"><a class="reference internal" href="#dual-time">Dual-Time</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#fitness-tracking">Fitness-Tracking</a>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#binary">Binary</a>
     </li>
         </ul>
@@ -135,17 +139,21 @@
 The default analog watchface.</p>
 <p>Steps are shown in the blue circle, a full rotation is 10800 steps.</p>
 <ul>
-<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/watchface.cpp">watchface.cpp</a></li>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/OswAppWatchface.cpp">OswAppWatchface.cpp</a></li>
 <li>Author: <a href="https://github.com/pauls-3d-things">pauls-3d-things</a></li>
 </ul>
 <div style="clear: both; margin-bottom:20px"></div>
 
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>When applying dual time mode <code>Display Dual-Time Hour Tick</code> for analog clocks, the analog clocks display dark-colored hour hands.</p>
+</div>
 <h3 id="digital">Digital</h3>
 <p><img src="/assets/apps/watchfaces/watchface_digital_osw.png" width="256px" style="float:left; margin-right:20px"/>
 The default digital watchface.</p>
 <p>Steps are shown as a number at the bottom of the screen.</p>
 <ul>
-<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/watchface_digital.cpp">watchface_digital.cpp</a></li>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/OswAppWatchfaceDigital.cpp">OswAppWatchfaceDigital.cpp</a></li>
 <li>Author: <a href="https://github.com/rawsignal">rawsignal</a></li>
 </ul>
 <div style="clear: both"></div>
@@ -155,7 +163,27 @@ The default digital watchface.</p>
 The default mix watchface.</p>
 <p>Steps are shown as a step-history frame at the bottom of the screen.</p>
 <ul>
-<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/watchface_mix.cpp">watchface_mix.cpp</a></li>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/OswAppWatchfaceMix.cpp">OswAppWatchfaceMix.cpp</a></li>
+<li>Author: <a href="https://github.com/RuffaloLavoisier">ruffalolavoisier</a></li>
+</ul>
+<div style="clear: both"></div>
+
+<h3 id="dual-time">Dual-Time</h3>
+<p><img src="/assets/apps/watchfaces/watchface_dualtime_osw.png" width="256px" style="float:left; margin-right:20px"/>
+The default digital dual-time watchface.</p>
+<p>Based on the animation bar representing the common time in seconds, the top is local and the bottom is dual time.</p>
+<ul>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/OswAppWatchfaceDual.cpp">OswAppWatchfaceDual.cpp</a></li>
+<li>Author: <a href="https://github.com/RuffaloLavoisier">ruffalolavoisier</a></li>
+</ul>
+<div style="clear: both"></div>
+
+<h3 id="fitness-tracking">Fitness-Tracking</h3>
+<p><img src="/assets/apps/watchfaces/watchface_fitnesstracking_osw.png" width="256px" style="float:left; margin-right:20px"/>
+The default fitness-tracking watchface.</p>
+<p>It shows steps, calories, and distance during the day.</p>
+<ul>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/OswAppWatchfaceFitness.cpp">OswAppWatchfaceFitness.cpp</a></li>
 <li>Author: <a href="https://github.com/RuffaloLavoisier">ruffalolavoisier</a></li>
 </ul>
 <div style="clear: both"></div>
@@ -165,7 +193,7 @@ The default mix watchface.</p>
 The default binary watchface.</p>
 <p>Steps are shown as a hexadecimal number at side of the screen.</p>
 <ul>
-<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/watchface_binary.cpp">watchface_binary.cpp</a></li>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/OswAppWatchfaceBinary.cpp">OswAppWatchfaceBinary.cpp</a></li>
 <li>Author: <a href="https://github.com/xasz">xasz</a></li>
 </ul>
 <div style="clear: both"></div>
