@@ -65,6 +65,8 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#features">Features</a>
         <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#other-developed-available-flag">Other developed available flag</a>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#support">Support</a>
     </li>
         </ul>
@@ -121,6 +123,8 @@
               </ul>
               <p class="caption"><span class="caption-text">HowTos</span></p>
               <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../howto/contribute/">How to Contribute?</a>
+                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../howto/software/">Get Design Software</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../howto/assembly/">Assembly Note</a>
@@ -173,7 +177,7 @@
 </tr>
 <tr>
 <td><code>OSW_FEATURE_WIFI</code></td>
-<td>Enable all wifi releated functions (services, webinterface)</td>
+<td>Enable all wifi related functions (services, webinterface)</td>
 <td>-</td>
 </tr>
 <tr>
@@ -219,6 +223,29 @@
 <tr>
 <td><code>GPS_EDITION_ROTATED</code></td>
 <td>Replacement for <code>GPS_EDITION</code> to work with flipped boards</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="other-developed-available-flag">Other developed available flag</h3>
+<p>This flag is available on all models.</p>
+<table>
+<thead>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+<th>Requirements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>- <code>RAW_SCREEN_SERVER</code></td>
+<td>Capture the watchface and save it as a <code>*.png</code> file.</td>
+<td><code>OSW_FEATURE_WIFI</code></td>
+</tr>
+<tr>
+<td>- <code>ANIMATION</code></td>
+<td>Animation can be used as the background of the watchface.</td>
 <td>-</td>
 </tr>
 </tbody>
